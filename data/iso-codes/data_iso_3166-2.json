@@ -13557,18 +13557,63 @@
       "type": "County"
     },
     {
-      "code": "LU-D",
+      "code": "LU-CA",
+      "name": "Capellen",
+      "type": "District"
+    },
+    {
+      "code": "LU-CL",
+      "name": "Clervaux",
+      "type": "District"
+    },
+    {
+      "code": "LU-DI",
       "name": "Diekirch",
       "type": "District"
     },
     {
-      "code": "LU-G",
+      "code": "LU-EC",
+      "name": "Echternach",
+      "type": "District"
+    },
+    {
+      "code": "LU-ES",
+      "name": "Esch-sur-Alzette",
+      "type": "District"
+    },
+    {
+      "code": "LU-GR",
       "name": "Grevenmacher",
       "type": "District"
     },
     {
-      "code": "LU-L",
+      "code": "LU-LU",
       "name": "Luxembourg",
+      "type": "District"
+    },
+    {
+      "code": "LU-ME",
+      "name": "Mersch",
+      "type": "District"
+    },
+    {
+      "code": "LU-RD",
+      "name": "Redange",
+      "type": "District"
+    },
+    {
+      "code": "LU-RM",
+      "name": "Remich",
+      "type": "District"
+    },
+    {
+      "code": "LU-VD",
+      "name": "Vianden",
+      "type": "District"
+    },
+    {
+      "code": "LU-WI",
+      "name": "Wiltz",
       "type": "District"
     },
     {

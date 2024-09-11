@@ -5062,12 +5062,30 @@ func (s SubdivisionCode) String() string { //nolint:cyclop,gocyclo
 		return "Utenos Apskritis"
 	case SubdivisionLTVL:
 		return "Vilniaus Apskritis"
-	case SubdivisionLUD:
+	case SubdivisionLUCA:
+		return "Capellen"
+	case SubdivisionLUCL:
+		return "Clervaux"
+	case SubdivisionLUDI, SubdivisionLUD:
 		return "Diekirch"
-	case SubdivisionLUG:
+	case SubdivisionLUEC:
+		return "Echternach"
+	case SubdivisionLUES:
+		return "Esch-sur-Alzette"
+	case SubdivisionLUGR, SubdivisionLUG:
 		return "Grevenmacher"
-	case SubdivisionLUL:
+	case SubdivisionLULU, SubdivisionLUL:
 		return "Luxembourg"
+	case SubdivisionLUME:
+		return "Mersch"
+	case SubdivisionLURD:
+		return "Redange"
+	case SubdivisionLURM:
+		return "Remich"
+	case SubdivisionLUVD:
+		return "Vianden"
+	case SubdivisionLUWI:
+		return "Wiltz"
 	case SubdivisionLV001:
 		return "Aglonas novads"
 	case SubdivisionLV002:
@@ -14844,6 +14862,30 @@ func (s SubdivisionCode) Country() CountryCode {
 	case SubdivisionLUG:
 		return LU
 	case SubdivisionLUL:
+		return LU
+	case SubdivisionLUCA:
+		return LU
+	case SubdivisionLUCL:
+		return LU
+	case SubdivisionLUDI:
+		return LU
+	case SubdivisionLUEC:
+		return LU
+	case SubdivisionLUES:
+		return LU
+	case SubdivisionLUGR:
+		return LU
+	case SubdivisionLULU:
+		return LU
+	case SubdivisionLUME:
+		return LU
+	case SubdivisionLURD:
+		return LU
+	case SubdivisionLURM:
+		return LU
+	case SubdivisionLUVD:
+		return LU
+	case SubdivisionLUWI:
 		return LU
 	case SubdivisionLV001:
 		return LV
@@ -24637,6 +24679,30 @@ func (s SubdivisionCode) SubdivisionType() SubdivisionTypeCode {
 		return SubdivisionTypeDistrict
 	case SubdivisionLUL:
 		return SubdivisionTypeDistrict
+	case SubdivisionLUCA:
+		return SubdivisionTypeDistrict
+	case SubdivisionLUCL:
+		return SubdivisionTypeDistrict
+	case SubdivisionLUDI:
+		return SubdivisionTypeDistrict
+	case SubdivisionLUEC:
+		return SubdivisionTypeDistrict
+	case SubdivisionLUES:
+		return SubdivisionTypeDistrict
+	case SubdivisionLUGR:
+		return SubdivisionTypeDistrict
+	case SubdivisionLULU:
+		return SubdivisionTypeDistrict
+	case SubdivisionLUME:
+		return SubdivisionTypeDistrict
+	case SubdivisionLURD:
+		return SubdivisionTypeDistrict
+	case SubdivisionLURM:
+		return SubdivisionTypeDistrict
+	case SubdivisionLUVD:
+		return SubdivisionTypeDistrict
+	case SubdivisionLUWI:
+		return SubdivisionTypeDistrict
 	case SubdivisionLV001:
 		return SubdivisionTypeMunicipality
 	case SubdivisionLV002:
@@ -31920,6 +31986,17 @@ func AllSubdivisions() []SubdivisionCode {
 		SubdivisionLUD,
 		SubdivisionLUG,
 		SubdivisionLUL,
+		SubdivisionLUCA,
+		SubdivisionLUDI,
+		SubdivisionLUEC,
+		SubdivisionLUES,
+		SubdivisionLUGR,
+		SubdivisionLULU,
+		SubdivisionLUME,
+		SubdivisionLURD,
+		SubdivisionLURM,
+		SubdivisionLUVD,
+		SubdivisionLUWI,
 		SubdivisionLV001,
 		SubdivisionLV002,
 		SubdivisionLV003,
