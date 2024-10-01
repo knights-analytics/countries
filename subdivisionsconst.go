@@ -7093,37 +7093,85 @@ const (
 	// SubdivisionPKTA      SubdivisionCode = "PK-TA"
 	SubdivisionPKTA SubdivisionCode = "PK-TA"
 	// SubdivisionPLDS      SubdivisionCode = "PL-DS"
+	// Deprecated, replaced by [SubdivisionPL02]
 	SubdivisionPLDS SubdivisionCode = "PL-DS"
 	// SubdivisionPLKP      SubdivisionCode = "PL-KP"
+	// Deprecated, replaced by [SubdivisionPL04]
 	SubdivisionPLKP SubdivisionCode = "PL-KP"
 	// SubdivisionPLLB      SubdivisionCode = "PL-LB"
+	// Deprecated, replaced by [SubdivisionPL08]
 	SubdivisionPLLB SubdivisionCode = "PL-LB"
 	// SubdivisionPLLD      SubdivisionCode = "PL-LD"
+	// Deprecated, replaced by [SubdivisionPL10]
 	SubdivisionPLLD SubdivisionCode = "PL-LD"
 	// SubdivisionPLLU      SubdivisionCode = "PL-LU"
+	// Deprecated, replaced by [SubdivisionPL06]
 	SubdivisionPLLU SubdivisionCode = "PL-LU"
 	// SubdivisionPLMA      SubdivisionCode = "PL-MA"
+	// Deprecated, replaced by [SubdivisionPL12]
 	SubdivisionPLMA SubdivisionCode = "PL-MA"
 	// SubdivisionPLMZ      SubdivisionCode = "PL-MZ"
+	// Deprecated, replaced by [SubdivisionPL14]
 	SubdivisionPLMZ SubdivisionCode = "PL-MZ"
 	// SubdivisionPLOP      SubdivisionCode = "PL-OP"
+	// Deprecated, replaced by [SubdivisionPL16]
 	SubdivisionPLOP SubdivisionCode = "PL-OP"
 	// SubdivisionPLPD      SubdivisionCode = "PL-PD"
+	// Deprecated, replaced by [SubdivisionPL20]
 	SubdivisionPLPD SubdivisionCode = "PL-PD"
 	// SubdivisionPLPK      SubdivisionCode = "PL-PK"
+	// Deprecated, replaced by [SubdivisionPL18]
 	SubdivisionPLPK SubdivisionCode = "PL-PK"
 	// SubdivisionPLPM      SubdivisionCode = "PL-PM"
+	// Deprecated, replaced by [SubdivisionPL22]
 	SubdivisionPLPM SubdivisionCode = "PL-PM"
 	// SubdivisionPLSK      SubdivisionCode = "PL-SK"
+	// Deprecated, replaced by [SubdivisionPL26]
 	SubdivisionPLSK SubdivisionCode = "PL-SK"
 	// SubdivisionPLSL      SubdivisionCode = "PL-SL"
+	// Deprecated, replaced by [SubdivisionPL24]
 	SubdivisionPLSL SubdivisionCode = "PL-SL"
 	// SubdivisionPLWN      SubdivisionCode = "PL-WN"
+	// Deprecated, replaced by [SubdivisionPL28]
 	SubdivisionPLWN SubdivisionCode = "PL-WN"
 	// SubdivisionPLWP      SubdivisionCode = "PL-WP"
+	// Deprecated, replaced by [SubdivisionPL30]
 	SubdivisionPLWP SubdivisionCode = "PL-WP"
 	// SubdivisionPLZP      SubdivisionCode = "PL-ZP"
+	// Deprecated, replaced by [SubdivisionPL32]
 	SubdivisionPLZP SubdivisionCode = "PL-ZP"
+	// SubdivisionPL02      SubdivisionCode = "PL-02"
+	SubdivisionPL02 SubdivisionCode = "PL-02"
+	// SubdivisionPL04      SubdivisionCode = "PL-04"
+	SubdivisionPL04 SubdivisionCode = "PL-04"
+	// SubdivisionPL06      SubdivisionCode = "PL-06"
+	SubdivisionPL06 SubdivisionCode = "PL-06"
+	// SubdivisionPL08      SubdivisionCode = "PL-08"
+	SubdivisionPL08 SubdivisionCode = "PL-08"
+	// SubdivisionPL10      SubdivisionCode = "PL-10"
+	SubdivisionPL10 SubdivisionCode = "PL-10"
+	// SubdivisionPL12      SubdivisionCode = "PL-12"
+	SubdivisionPL12 SubdivisionCode = "PL-12"
+	// SubdivisionPL14      SubdivisionCode = "PL-14"
+	SubdivisionPL14 SubdivisionCode = "PL-14"
+	// SubdivisionPL16      SubdivisionCode = "PL-16"
+	SubdivisionPL16 SubdivisionCode = "PL-16"
+	// SubdivisionPL18      SubdivisionCode = "PL-18"
+	SubdivisionPL18 SubdivisionCode = "PL-18"
+	// SubdivisionPL20      SubdivisionCode = "PL-20"
+	SubdivisionPL20 SubdivisionCode = "PL-20"
+	// SubdivisionPL22      SubdivisionCode = "PL-22"
+	SubdivisionPL22 SubdivisionCode = "PL-22"
+	// SubdivisionPL24      SubdivisionCode = "PL-24"
+	SubdivisionPL24 SubdivisionCode = "PL-24"
+	// SubdivisionPL26      SubdivisionCode = "PL-26"
+	SubdivisionPL26 SubdivisionCode = "PL-26"
+	// SubdivisionPL28      SubdivisionCode = "PL-28"
+	SubdivisionPL28 SubdivisionCode = "PL-28"
+	// SubdivisionPL30      SubdivisionCode = "PL-30"
+	SubdivisionPL30 SubdivisionCode = "PL-30"
+	// SubdivisionPL32      SubdivisionCode = "PL-32"
+	SubdivisionPL32 SubdivisionCode = "PL-32"
 	// SubdivisionPSBTH     SubdivisionCode = "PS-BTH"
 	SubdivisionPSBTH SubdivisionCode = "PS-BTH"
 	// SubdivisionPSDEB     SubdivisionCode = "PS-DEB"
