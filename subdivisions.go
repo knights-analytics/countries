@@ -7122,37 +7122,37 @@ func (s SubdivisionCode) String() string { //nolint:cyclop,gocyclo
 		return "Sindh"
 	case SubdivisionPKTA:
 		return "Federally Administered Tribal Areas"
-	case SubdivisionPLDS:
+	case SubdivisionPL02, SubdivisionPLDS:
 		return "Dolnośląskie"
-	case SubdivisionPLKP:
-		return "Kujawsko-pomorskie"
-	case SubdivisionPLLB:
-		return "Lubuskie"
-	case SubdivisionPLLD:
-		return "Łódzkie"
-	case SubdivisionPLLU:
+	case SubdivisionPL04, SubdivisionPLKP:
+		return "Kujawsko-Pomorskie"
+	case SubdivisionPL06, SubdivisionPLLU:
 		return "Lubelskie"
-	case SubdivisionPLMA:
+	case SubdivisionPL08, SubdivisionPLLB:
+		return "Lubuskie"
+	case SubdivisionPL10, SubdivisionPLLD:
+		return "Łódzkie"
+	case SubdivisionPL12, SubdivisionPLMA:
 		return "Małopolskie"
-	case SubdivisionPLMZ:
+	case SubdivisionPL14, SubdivisionPLMZ:
 		return "Mazowieckie"
-	case SubdivisionPLOP:
+	case SubdivisionPL16, SubdivisionPLOP:
 		return "Opolskie"
-	case SubdivisionPLPD:
-		return "Podlaskie"
-	case SubdivisionPLPK:
+	case SubdivisionPL18, SubdivisionPLPK:
 		return "Podkarpackie"
-	case SubdivisionPLPM:
+	case SubdivisionPL20, SubdivisionPLPD:
+		return "Podlaskie"
+	case SubdivisionPL22, SubdivisionPLPM:
 		return "Pomorskie"
-	case SubdivisionPLSK:
-		return "Świętokrzyskie"
-	case SubdivisionPLSL:
+	case SubdivisionPL24, SubdivisionPLSL:
 		return "Śląskie"
-	case SubdivisionPLWN:
-		return "Warmińsko-mazurskie"
-	case SubdivisionPLWP:
+	case SubdivisionPL26, SubdivisionPLSK:
+		return "Świętokrzyskie"
+	case SubdivisionPL28, SubdivisionPLWN:
+		return "Warmińsko-Mazurskie"
+	case SubdivisionPL30, SubdivisionPLWP:
 		return "Wielkopolskie"
-	case SubdivisionPLZP:
+	case SubdivisionPL32, SubdivisionPLZP:
 		return "Zachodniopomorskie"
 	case SubdivisionPSBTH:
 		return "Bethlehem"
@@ -16954,6 +16954,38 @@ func (s SubdivisionCode) Country() CountryCode {
 	case SubdivisionPLWP:
 		return PL
 	case SubdivisionPLZP:
+		return PL
+	case SubdivisionPL02:
+		return PL
+	case SubdivisionPL04:
+		return PL
+	case SubdivisionPL06:
+		return PL
+	case SubdivisionPL08:
+		return PL
+	case SubdivisionPL10:
+		return PL
+	case SubdivisionPL12:
+		return PL
+	case SubdivisionPL14:
+		return PL
+	case SubdivisionPL16:
+		return PL
+	case SubdivisionPL18:
+		return PL
+	case SubdivisionPL20:
+		return PL
+	case SubdivisionPL22:
+		return PL
+	case SubdivisionPL24:
+		return PL
+	case SubdivisionPL26:
+		return PL
+	case SubdivisionPL28:
+		return PL
+	case SubdivisionPL30:
+		return PL
+	case SubdivisionPL32:
 		return PL
 	case SubdivisionPSBTH:
 		return PS
@@ -26771,6 +26803,38 @@ func (s SubdivisionCode) SubdivisionType() SubdivisionTypeCode {
 		return SubdivisionTypeProvince
 	case SubdivisionPLZP:
 		return SubdivisionTypeProvince
+	case SubdivisionPL02:
+		return SubdivisionTypeProvince
+	case SubdivisionPL04:
+		return SubdivisionTypeProvince
+	case SubdivisionPL06:
+		return SubdivisionTypeProvince
+	case SubdivisionPL08:
+		return SubdivisionTypeProvince
+	case SubdivisionPL10:
+		return SubdivisionTypeProvince
+	case SubdivisionPL12:
+		return SubdivisionTypeProvince
+	case SubdivisionPL14:
+		return SubdivisionTypeProvince
+	case SubdivisionPL16:
+		return SubdivisionTypeProvince
+	case SubdivisionPL18:
+		return SubdivisionTypeProvince
+	case SubdivisionPL20:
+		return SubdivisionTypeProvince
+	case SubdivisionPL22:
+		return SubdivisionTypeProvince
+	case SubdivisionPL24:
+		return SubdivisionTypeProvince
+	case SubdivisionPL26:
+		return SubdivisionTypeProvince
+	case SubdivisionPL28:
+		return SubdivisionTypeProvince
+	case SubdivisionPL30:
+		return SubdivisionTypeProvince
+	case SubdivisionPL32:
+		return SubdivisionTypeProvince
 	case SubdivisionPSBTH:
 		return SubdivisionTypeGovernorate
 	case SubdivisionPSDEB:
@@ -33031,6 +33095,22 @@ func AllSubdivisions() []SubdivisionCode {
 		SubdivisionPLWN,
 		SubdivisionPLWP,
 		SubdivisionPLZP,
+		SubdivisionPL02,
+		SubdivisionPL04,
+		SubdivisionPL06,
+		SubdivisionPL08,
+		SubdivisionPL10,
+		SubdivisionPL12,
+		SubdivisionPL14,
+		SubdivisionPL16,
+		SubdivisionPL18,
+		SubdivisionPL20,
+		SubdivisionPL22,
+		SubdivisionPL24,
+		SubdivisionPL26,
+		SubdivisionPL28,
+		SubdivisionPL30,
+		SubdivisionPL32,
 		SubdivisionPSBTH,
 		SubdivisionPSDEB,
 		SubdivisionPSGZA,

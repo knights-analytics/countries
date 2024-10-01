@@ -18970,7 +18970,7 @@
     },
     {
       "code": "PL-KP",
-      "name": "Kujawsko-pomorskie",
+      "name": "Kujawsko-Pomorskie",
       "type": "Province"
     },
     {
@@ -19030,7 +19030,7 @@
     },
     {
       "code": "PL-WN",
-      "name": "Warmińsko-mazurskie",
+      "name": "Warmińsko-Mazurskie",
       "type": "Province"
     },
     {
@@ -19040,6 +19040,87 @@
     },
     {
       "code": "PL-ZP",
+      "name": "Zachodniopomorskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-02",
+      "name": "Dolnośląskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-04",
+      "name": "Kujawsko-Pomorskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-06",
+      "name": "Lubelskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-08",
+      "name": "Lubuskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-10",
+      "name": "Łódzkie",
+      "type": "Province"
+    },
+
+    {
+      "code": "PL-12",
+      "name": "Małopolskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-14",
+      "name": "Mazowieckie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-16",
+      "name": "Opolskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-18",
+      "name": "Podkarpackie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-20",
+      "name": "Podlaskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-22",
+      "name": "Pomorskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-24",
+      "name": "Śląskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-26",
+      "name": "Świętokrzyskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-28",
+      "name": "Warmińsko-Mazurskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-30",
+      "name": "Wielkopolskie",
+      "type": "Province"
+    },
+    {
+      "code": "PL-32",
       "name": "Zachodniopomorskie",
       "type": "Province"
     },
